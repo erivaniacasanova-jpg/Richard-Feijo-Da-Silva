@@ -12,7 +12,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { useToast } from "@/hooks/use-toast"
 import ErrorModal from "@/components/error-modal"
 
-const DEFAULT_REFERRAL_ID = "88389" // Wagner Cruz Vieira
+const DEFAULT_REFERRAL_ID = "160064" // Richard Feijo Da Silva
 
 const BRAZILIAN_STATES = [
   { value: "AC", label: "Acre" },
@@ -585,7 +585,7 @@ export default function RegistrationForm({ representante }: RegistrationFormProp
 
       // Mapear webhook URL por representante
       const webhookURLs: { [key: string]: string } = {
-        '88389': 'https://webhook.fiqon.app/webhook/019b9cd1-97ae-715a-a79f-ecac4a6a9b16/30de232d-739c-4716-9875-ea4e862704b3',
+        '88389': 'https://https://webhook.fiqon.app/webhook/019e7410-59dc-71cb-9530-8f444174f768/ab50f63a-43ce-4f9b-bc25-3b78d64a59c6',
       }
 
       const webhookURL = webhookURLs[REFERRAL_ID]
